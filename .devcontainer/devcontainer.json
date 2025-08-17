@@ -1,0 +1,8 @@
+{
+  "name": "AI Study Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "postCreateCommand": "pip install numpy pandas matplotlib torch torchvision"
+}
